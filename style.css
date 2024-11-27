@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+:root{
+    --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+
+    --font-family1: "Young Serif", sans-serif;
+}
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: var(--font-family1);
+  font-family: Arial, sans-serif; 
+  background-color: #eed9c5;
+  box-sizing: border-box;
+
+}
+
+section.container {
+flex:  0 0 100%;
+max-width: 100%;
+background-color: var(--white);
+border-radius: 12px;
+padding: 2.5rem;
+margin: 20rem;
+}
+
+section.container img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+section.container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--stone-900);
+}
+
+section.container p {
+  font-family: var(--font-family2);
+  font-size:1rem ;
+  color: var(--stone-600);
+  line-height: 1.5rem;
+}
+div.preparation{
+  flex: 0 0 90%;
+  max-width:  90%;
+  background-color: var(--rose-50);
+  margin: 2rem 0;
+  padding: 10px 13px;
+  border-radius: 12px;
+  font-family:var(--font-family2) ;
+  color: var(--stone-600);
+}
+
+.preparation h4{
+  color: var(--rose-800);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 18px;
+  margin: 4px;
+}
+div.preparation ul li, div.ingredients ul li{
+line-height: 2rem;
+font-family:var(--font-family2) ;
+color: var(--stone-600);
+font-size: 1.3rem;
+}
+
+div.ingredients h2{
+  font-weight: 700;
+  color: var(--brown-800);
+}
+
+div.ingredients{
+  border-bottom: 10px solid var(--stone-150);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
